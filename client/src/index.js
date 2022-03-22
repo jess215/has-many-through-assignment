@@ -19,7 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/about" element={<About />} />
-          <Route index path="/home" element={<Home />} />
+          <Route index path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
